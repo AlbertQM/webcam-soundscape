@@ -3,7 +3,19 @@
 Author: Alberto Morabito
 Language: Processing
 
-How to:
+## Main idea:
+
+Control your music volume and pan with your webcam. 
+
+1. Draw a scenario on a piece of paper and point the webcam onto it; to each single drawing (based on the colour, e.g. a black drum kit) will be associated a track. You can decide where to draw to change that track's volume and pan.
+
+1a. Use plasticine to make models of your instruments (or anything really; why not make a fish and assign it some bubble sounds?), so it's easier to move the pieces around.
+
+2. Point the webcam at you and move around the objects being tracked for a nice stereo effect.
+
+
+
+## How to:
 
 This processing sketch reads your webcam live feed. You can right click anywhere on the live feed/video to add the colour you clicked to
 the list of "Tracked colours". Each one of these is associated with a track (which should be placed in /data/ folder, and named 1.wav,
